@@ -87,12 +87,12 @@ document.addEventListener('scroll', function() {
 
 //scrolll
 
-jQuery(document).ready(function($) {
-    $('a').click(function(e) {
-        e.preventDefault();
-        $id = $(this).attr('href');
-        $('body,html').animate({
-            scrollTop: $($id).offset().top
-        }, 500);
-    });
-});
+// jQuery(document).ready(function($) {
+//     $('a').click(function(e) {
+//         e.preventDefault();
+//         $id = $(this).attr('href');
+//         $('body,html').animate({
+//             scrollTop: $($id).offset().top
+//         }, 500);
+//     });
+// });
