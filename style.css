@@ -401,7 +401,7 @@ svg path,
 .icons li:nth-child(3) a:hover .fab {
   color: #0077b5; /* LinkedIn */
 }
-
+/* 
 #blob {
   background-color: white;
   background: linear-gradient(to right, #ff7eee, mediumpurple);
@@ -433,7 +433,7 @@ svg path,
   width: 100%;
   position: absolute;
   backdrop-filter: blur(200px);
-}
+} */
 
 /* form */
 /* container{
