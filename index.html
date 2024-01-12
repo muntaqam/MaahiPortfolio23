@@ -6,6 +6,8 @@
     <title>Muntaqa Maahi Portfolio</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="card.css">
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+
      <!-- Include EmailJS script first -->
   <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
 
@@ -93,14 +95,21 @@
     
    
     <section id ="about-me" class="hidden">
+       <canvas id="canvas"></canvas>
+        
         <h1>Muntaqa Maahi</h1>
         <p>I am an enthusiastic software developer who enjoys building cool projects and solving problems</p> 
+        
+        
+        
        <ul class="icons">
         <li><a href="https://github.com/muntaqam" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fab fa-github" aria-hidden="true"></i></a></li>
         <li><a href="https://www.linkedin.com/in/muntaqam/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn Profile"><i class="fab fa-linkedin" aria-hidden="true"></i></a></li>
         <li><a href="mailto:munma980@gmail.com" target="_blank" rel="noopener noreferrer" aria-label="Email"><i class="fas fa-envelope" aria-hidden="true"></i></a></li>
         <li><a href="tel:+13479638176" aria-label="Call Me"><i class="fas fa-phone" aria-hidden="true"></i></a></li>
         </ul>
+
+        </section>
          
 
 
@@ -120,32 +129,28 @@
 
           <div class="card-container ">
 
-            <article class = "card">
-            <header class = "card-header"> 
-                <p> Netflix Mockup </p>
-                <h2>Mockup of the Netflix home page using the tmbd API to fetch the updated movies & TV shows.</h2>
-            </header>
+           <article class="card">
+    <header class="card-header"> 
+        <p> GreatReads </p>
+        <h2>A book discovery and tracking platform inspired by Goodreads, built with React, TailwindCSS, and Supabase.</h2>
+    </header>
 
-
-            <div class="card-author">
-                <a class ="author-avatar" href="https://netflixmockupmaahi.netlify.app">
-                    <img src ="images/netflix.png"/>
-                </a>
-                <!-- <svg class="half-circle" viewBox="0 0 106 57">
-                    <path d ="M102 4C0 27 .1-21.9 49-49 49S4 31.1 4 4"></path>
-
-                </svg> -->
-                <div class ="author-name">
-                    <div class ="author-name-prefix">Check it out</div>
-                    <a href="https://netflixmockupmaahi.netlify.app/" target="_blank" rel="noopener noreferrer">Live Demo</a>
-                </div>
-            </div>
-            <div class="tags">
-          <a href="#">ReactJS</a>
-          <a href="#">Firebase</a>
+    <div class="card-author">
+        <a class="author-avatar" href="https://greatreadsapp.netlify.app">
+            <img src="images/book.png"/> <!-- Update the image source -->
+        </a>
+        <div class="author-name">
+            <div class="author-name-prefix">Check it out</div>
+            <a href="https://greatreadsapp.netlify.app/" target="_blank" rel="noopener noreferrer">Live Demo</a>
         </div>
+    </div>
+    <div class="tags">
+        <a href="#">ReactJS</a>
+        <a href="#">TailwindCSS</a>
+        <a href="#">Supabase</a>
+    </div>
+</article>
 
-        </article>
 
 
         <article class = "card">
@@ -277,6 +282,6 @@
 </section>
 
 
-    
+    <script src="path/to/particles.js"></script>
 </body>
 </html>
