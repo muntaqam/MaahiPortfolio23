@@ -206,3 +206,5 @@ function update() {
 init();
 
 requestAnimationFrame(update);
+
+//tabs

@@ -34,6 +34,10 @@ body {
 #about-me p {
   text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
   margin: 10px 0;
+
+  font-family: "DM MONO", monospace;
+  font-size: 18px; /* Change the value according to what suits you */
+  font-weight: 700;
 }
 
 #about-me h1 {
@@ -296,6 +300,11 @@ svg path,
   justify-content: center; /* This will align the grid content to the top */
 }
 
+.skills {
+  position: relative;
+  padding-bottom: 50px; /* Ensure there's space for the mouseDown indicator */
+}
+
 #skills h1 {
   text-align: center; /* This will center the h1 text */
   width: 100%; /* This will make sure the text takes up the full width so it can be centered */
@@ -317,8 +326,8 @@ svg path,
 }
 
 .skills-container .skills-box {
-  width: 150px; /* or whatever width you desire */
-  height: 150px; /* or whatever height you desire */
+  width: 100px; /* or whatever width you desire */
+  height: 100px; /* or whatever height you desire */
   background: var(--second-bg-color);
   padding: 1rem;
   border-radius: 2rem;
@@ -732,3 +741,5 @@ form button {
   height: 100%;
   z-index: -1;
 }
+
+/* tabs */
