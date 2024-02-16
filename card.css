@@ -60,6 +60,7 @@
 .author-name-prefix {
   font-weight: 700;
   color: #7a7a8c;
+  cursor: default;
 }
 
 .card-header h2:hover {
