@@ -743,3 +743,7 @@ form button {
 }
 
 /* tabs */
+
+.live-demo-link:hover {
+  color: #ff7eee; /* Replace newColor with your desired hover color */
+}
