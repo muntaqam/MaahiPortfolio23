@@ -157,3 +157,7 @@
 .card-header h2 {
   cursor: default; /* Changes the cursor to the default pointer */
 }
+
+.project-link .fas.fa-external-link-alt {
+  margin-left: 8px; /* Adds space to the left of the external link icon */
+}
