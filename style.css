@@ -747,3 +747,15 @@ form button {
 .live-demo-link:hover {
   color: #ff7eee; /* Replace newColor with your desired hover color */
 }
+
+ /* background-color: rgba(255, 255, 255, 0.5); */
+.hobby-box {
+    background-color: rgba(130, 84, 125, 0.73); /* Slightly transparent white background */
+    border-radius: 10px; /* Rounded corners */
+    padding: 20px; /* Inner spacing around the text */
+    margin-top: 20px; /* Space above the box */
+    font-size: 0.8em; /* Smaller text size */
+    width: 60%; /* Smaller box width, adjust as necessary */
+    margin-left: auto; /* These two margin settings center the box */
+    margin-right: auto;
+}
