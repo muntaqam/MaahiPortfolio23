@@ -759,3 +759,49 @@ form button {
     margin-left: auto; /* These two margin settings center the box */
     margin-right: auto;
 }
+
+.name {
+    position: relative;
+    top: -300px;
+}
+
+.box {
+  background-color: rgba(130, 84, 125, 0.73); /* Slightly transparent purple background */
+  border-radius: 10px; /* Rounded corners */
+  padding: 20px; /* Inner spacing around the text */
+  margin-top: -250px; /* Adjust if necessary to avoid overlap */
+  width: 80%; /* Responsive width */
+  margin-left: auto; /* Centering the box horizontally */
+  margin-right: auto;
+  color: #FFFFFF; /* High contrast text color for readability */
+  max-width: 480px; /* Optimal line length */
+  font-size: 16px; /* Legible font size */
+}
+
+#about-me .box p {
+  font-family: Arial, Helvetica, sans-serif; /* Clean, readable font */
+  text-align: left; /* Easy-to-follow text alignment */
+  font-size: 16px; /* Consistent font size */
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5); /* Softer text shadow for depth without blur */
+  line-height: 1.5; /* Adequate line spacing for readability */
+  margin-bottom: 1.5em; /* Spacing between paragraphs */
+  font-weight: 400; /* Regular weight for body text */
+}
+strong {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+
+@media screen and (max-width: 768px) {
+  .box {
+    width: 80%; /* More screen-responsive width */
+    margin-top: 0; /* Adjust positioning on smaller screens */
+    padding: 15px; /* Adjust padding for smaller screens */
+  }
+
+  #about-me .box p {
+    font-size: 14px; /* Slightly smaller font size for smaller screens */
+    line-height: 1.4; /* Adjust line height for smaller font size */
+  }
+}
