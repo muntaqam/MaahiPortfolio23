@@ -763,17 +763,16 @@ form button {
     position: relative;
     top: -180px;
 }
-
 .box {
   background-color: rgba(130, 84, 125, 0.73); /* Slightly transparent purple background */
   border-radius: 10px; /* Rounded corners */
   padding: 20px; /* Inner spacing around the text */
   margin-top: -170px; /* Adjust if necessary to avoid overlap */
-  width: 80%; /* Responsive width */
+  width: 90%; /* Increased responsive width */
   margin-left: auto; /* Centering the box horizontally */
   margin-right: auto;
   color: #FFFFFF; /* High contrast text color for readability */
-  max-width: 480px; /* Optimal line length */
+  max-width: 600px; /* Increased optimal line length for a wider box */
   font-size: 16px; /* Legible font size */
 }
 
@@ -791,10 +790,9 @@ strong {
   font-weight: bold;
 }
 
-
 @media screen and (max-width: 768px) {
   .box {
-    width: 80%; /* More screen-responsive width */
+    width: 95%; /* Further increased width for smaller screens */
     margin-top: 0; /* Adjust positioning on smaller screens */
     padding: 15px; /* Adjust padding for smaller screens */
   }
@@ -804,4 +802,3 @@ strong {
     line-height: 1.4; /* Adjust line height for smaller font size */
   }
 }
-
