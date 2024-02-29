@@ -368,7 +368,7 @@ svg path,
 
 .icons {
   position: absolute;
-  bottom: 120px;
+  bottom: 100px;
   left: 50%;
   transform: translateX(-50%);
   margin: 0;
@@ -761,14 +761,14 @@ form button {
 
 .name {
     position: relative;
-    top: -220px;
+    top: -180px;
 }
 
 .box {
   background-color: rgba(130, 84, 125, 0.73); /* Slightly transparent purple background */
   border-radius: 10px; /* Rounded corners */
   padding: 20px; /* Inner spacing around the text */
-  margin-top: -200px; /* Adjust if necessary to avoid overlap */
+  margin-top: -170px; /* Adjust if necessary to avoid overlap */
   width: 80%; /* Responsive width */
   margin-left: auto; /* Centering the box horizontally */
   margin-right: auto;
@@ -804,3 +804,4 @@ strong {
     line-height: 1.4; /* Adjust line height for smaller font size */
   }
 }
+
