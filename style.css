@@ -368,7 +368,7 @@ svg path,
 
 .icons {
   position: absolute;
-  bottom: 150px;
+  bottom: 120px;
   left: 50%;
   transform: translateX(-50%);
   margin: 0;
@@ -379,7 +379,6 @@ svg path,
 .icons li {
   list-style: none;
 }
-
 .icons li a {
   position: relative;
   width: 60px;
